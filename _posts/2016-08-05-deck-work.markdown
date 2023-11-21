@@ -1,0 +1,90 @@
+---
+layout: work
+title:  "Deck Project"
+date:   2016-08-04 22:15:04
+category: work
+sequence: 1
+description: "We've been called out by C. Mutonji and family to build up a high platform allowing them to get off the house through the backside door, so we came out with the conception of this 2 levels Deck and we thought of using the room under the upper floor as a secured space of storage with door and locker, all this with a very tight budget, customer and family were mind blown out!
+"
+image: P1-Thumb.jpg
+active: work
+---
+
+<div class='col-xs-12 animated'>
+    <h3 class='sub-title'>
+        Summary
+    </h3>
+    <ul class='list-unstyled'>
+        <li>
+            <p>
+                <strong> Project Type </strong> 
+                <br>
+                Residential                
+            </p>                
+        </li>        
+        <li>                
+            <p>
+                <strong> City </strong> 
+                <br>
+                Toronto
+            </p>                
+        </li>
+    </ul>
+
+    <h3 class='sub-title'>
+        Consultants
+    </h3>
+    <ul class='list-unstyled'>
+        <li>
+            <strong> Plick Candoo </strong> 
+        </li>
+    </ul>
+</div>
+<div class='col-md-9 col-sm-8 col-xs-12 animated'>
+    <h3 class='sub-title'>
+        Project Details
+    </h3>
+    <p>
+        We've been called out by C. Mutonji and family to build up a high platform allowing them to get off the house through the backside door, so we came out with the conception of this 2 levels Deck and we thought of using the room under the upper floor as a secured space of storage with door and locker, all this with a very tight budget, customer and family was mind blown out!
+    </p>
+    <ul class='list-unstyled list-primary'>
+        <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Clean and modern architecture
+        </li>
+        <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Eco friendly materials
+        </li>
+        <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Idea to final solution
+        </li>
+    </ul>
+</div>    
+    
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-1-deck.jpg" alt="Deck 1" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-2-deck.jpg" alt="Deck 2" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-3-deck.jpg" alt="Deck 3" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-4-deck.jpg" alt="Deck 4" class='img-responsive img-border' />
+</div>            
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-5-deck.jpg" alt="Deck 1" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-6-deck.jpg" alt="Deck 2" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-7-deck.jpg" alt="Deck 3" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/P1-8-deck.jpg" alt="Deck 4" class='img-responsive img-border' />
+</div>
+    

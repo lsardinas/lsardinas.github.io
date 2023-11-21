@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Dany Kane"
+date:   2016-08-01 22:15:04
+category: testimony
+city: Scarborough
+---
+
+<blockquote>
+    <p>
+        My house needed some renovation work before I put it in the market I'm so glad I did find a great deal working with Plick Candoo, and my equity rose up.
+    </p>
+	<footer>
+        Dany K in {{page.city}}
+    </footer>
+</blockquote>

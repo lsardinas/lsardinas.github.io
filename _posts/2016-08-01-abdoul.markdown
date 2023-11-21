@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Abdoul Butale"
+date: 2016-08-01 22:15:04
+category: testimony
+city: Brampton
+---
+
+<blockquote>
+	<p>
+        My house got attacked on October 2015 by 10 unknown individuals with murder in their minds, they vandalized my whole house and left me for death, after I miraculously survived, Plick Candoo with the agreement of my assurance company was the only contractor able to match the budget willing to do some extra favors and the result made my health recovery more happier
+        <br>
+        <a href="https://www.youtube.com/watch?v=EFyqvT0SIS4" target="_blank">Story reported by CBC</a>
+    </p>
+    <footer>
+        Abdoul B in {{page.city}}
+    </footer>
+</blockquote>
+

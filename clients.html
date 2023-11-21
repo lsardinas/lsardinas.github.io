@@ -1,0 +1,44 @@
+---
+layout: default
+active: clients
+title: "Our Clients"
+description: "What our clients are saying"
+---
+
+<section>
+    <div class='default-row clients-row'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <h1 class='title'>
+                        What our clients are saying
+                    </h1>                
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class='default-row stripe-row'>
+        <div class='container'>        
+            <div class='row'>   
+            <ol class="breadcrumb">
+              <li><a href="{{site.baseurl}}/">Home</a></li>              
+              <li class="active">Clients</li>
+            </ol>
+            {% for post in site.categories.testimony %}
+
+                <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 animated'>
+                    <div class='card card-white'>					
+                        <div class='content'>
+                            {{post.content}}
+                        </div>					
+                    </div>				
+                </div>
+
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include quote.html %}

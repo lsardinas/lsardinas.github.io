@@ -1,0 +1,63 @@
+---
+layout: default
+title:  "All Services"
+description: "We offer services in areas like house renovation, construction, electricity, general contractor, paint and interior design. We are fully licensed to manage your project."
+active: services
+---
+
+<section>
+<div class='service-row default-row'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-xs-12'>
+                <h1 class="title">
+                    {{page.title}}
+                </h1>      
+            </div>
+        </div>
+    </div>
+</div>
+<div class='default-row stripe-row'>    
+    <div class='container'>
+        <div class='row'>
+            <ol class="breadcrumb">
+              <li><a href="{{site.baseurl}}/">Home</a></li>              
+              <li class="active">Services</li>
+            </ol>
+            
+            {% for service in site.services %}        
+            <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12 animated'>
+                <article id='{{service.title | replace: ' '}}' class='card card-white service-card'>
+                    <a class='card-image-link action' href="{{service.url}}" aria-label="More info on {{service.title}}">
+                        <div class='card-image' style="background-image:url('{{service.image}}')">
+                            <div class='thumbs-up'>
+                                <i class="{{service.icon}}" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class='content'>
+                        <h5>
+                            <a class='action' href="{{service.url}}">
+                                <strong>
+                                    {{service.title}}
+                                </strong>
+                            </a>
+                        </h5>
+                        {{service.description | truncate: 100}}
+                    </div>
+                    <div class='call-to-action'>
+                        <a class='action' href="{{service.url}}" aria-label="More info on {{service.title}}">
+                            <i class="fa fa-plus" aria-hidden="true"></i> More Info
+                        </a>
+                    </div>
+                </article>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class='clearfix'></div>
+</div>
+</section>
+
+{% include quote.html %}
+

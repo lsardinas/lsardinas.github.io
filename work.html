@@ -1,0 +1,58 @@
+---
+layout: default
+title:  "Our Work"
+description: "We offer services in areas like house renovation, construction, electricity, general contractor, paint and interior design. We are fully licensed to manage your project."
+active: work
+---
+
+<section>
+<div class='default-row work-row'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-xs-12'>
+                <h1 class="title">
+                    {{ page.title }}
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='default-row stripe-row'>
+    <div class='container'>
+        <div class='row'>
+        <ol class="breadcrumb">
+          <li><a href="{{site.baseurl}}/">Home</a></li>          
+          <li class="active">{{page.title}}</li>
+        </ol>
+            
+        {% assign works = site.categories.work | sort: 'sequence' %}
+        {% for work in works %}            
+            <div class='col-md-4 col-sm-6 col-xs-12 animated'>
+                <article class='card card-white'>            
+                    <a class="card-image-link action" href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                        <div class="card-image" style="background-image:url('{{site.baseurl}}/images/{{work.image}}')">                    
+                        </div>
+                    </a>
+                    <div class='content'>
+                        <h5>
+                            <a href='{{ work.url }}'>
+                                <strong> {{work.title}} </strong>
+                            </a>
+                        </h5>
+                        {{ work.description | truncate: 100 }}                
+                    </div>
+                    <div class="call-to-action">
+                        <a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                            <i class="fa fa-plus" aria-hidden="true"></i> More Info                    
+                        </a>                
+                    </div>            
+                </article>
+            </div>            
+        {% endfor %}
+        </div>
+    </div>    
+</div>
+</section>
+
+{% include quote.html %}
