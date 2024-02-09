@@ -3,7 +3,7 @@
     $('#contact-form').validate();
     $('.contact-header-row').gmap3({
         marker:{
-          address: "46 Caronia Square Toronto ON M1B 2Z8",
+          address: "7143 Madiera Rd Mississauga ON L4T 3A7",
           data: "Plick Candoo - Home Renovation"            
         },
         map:{
